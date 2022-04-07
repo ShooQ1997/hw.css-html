@@ -1,0 +1,56 @@
+*{font-family:  'Abril Fatface', cursive;;}
+.img-backgrund img{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    opacity: 0.50;
+    left: 0px;
+    top: 0px;
+    z-index:-700;}
+
+    
+/* section 1*/
+.myInfo{
+    display: flex;
+	flex-direction: row-reverse;
+}
+   
+ 
+.img {
+	display: flex;
+	align-items:center; 
+	justify-content: center;
+}
+
+.img img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items:left;
+	justify-content: center;
+	padding-left: 250px;
+}
+
+ hr{
+    
+    width: 20%;
+    border-top: 6px dotted black;
+
+}
+/*section 2 (table1)*/
+table{margin-top:30px;}
+
+ table, tr, td{
+    
+    border: 3px double black;
+    table-layout: fixed;
+    width: 100%;
+    padding: 3px;
+    }
+/* section 4 (button)*/
+.btn {text-align: center;}
